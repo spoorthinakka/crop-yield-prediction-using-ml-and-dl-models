@@ -1,4 +1,4 @@
-**Crop Yield Prediction Using Machine Learning and Deep Learning Models**
+## **Crop Yield Prediction Using Machine Learning and Deep Learning Models**
 
 A complete implementation of crop yield prediction for the **mustard crop** using a reservoir-based dataset.
 The project integrates both Machine Learning (ML) and Deep Learning (DL) approaches to forecast yield with improved accuracy and reliability.
