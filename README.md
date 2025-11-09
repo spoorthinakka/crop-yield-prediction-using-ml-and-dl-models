@@ -1,11 +1,11 @@
-## **Crop Yield Prediction Using Machine Learning and Deep Learning Models**
+# **Crop Yield Prediction Using Machine Learning and Deep Learning Models**
 
 A complete implementation of crop yield prediction for the **mustard crop** using a reservoir-based dataset.
 The project integrates both Machine Learning (ML) and Deep Learning (DL) approaches to forecast yield with improved accuracy and reliability.
 
 ---
 
-# **Overview**
+## **Overview**
 
 Accurate crop yield forecasting is a critical component of modern agricultural planning and policy formulation.
 Conducted as part of an internship research initiative under the Technology Innovation Hub (TIH), Indian Statistical Institute (ISI), Kolkata, this work employs data-driven predictive modeling to analyze the influence of climatic and reservoir parameters on mustard crop yield.
@@ -13,7 +13,7 @@ By integrating regression-based Machine Learning (ML) techniques with sequential
 
 ---
 
-# **Dataset Information**
+## **Dataset Information**
 
 Two datasets are available under the datasets/ directory:
 
@@ -24,7 +24,7 @@ Each dataset includes parameters such as rainfall, temperature, humidity, live s
 
 ---
 
-# **Models Implemented**
+## **Models Implemented**
 
 **Machine Learning Models**
 - **Random Forest Regressor (RFR):** Baseline ensemble model for non-linear yield prediction.
@@ -36,7 +36,7 @@ Each dataset includes parameters such as rainfall, temperature, humidity, live s
 
 ---
 
-# **Evaluation Metrics**
+## **Evaluation Metrics**
 
 All models are evaluated using key regression performance metrics:
 - Mean Absolute Error (MAE)
@@ -48,7 +48,7 @@ Visual analyses such as Actual vs Predicted and Residual plots are included to a
 
 ---
 
-# **Project Structure**
+## **Project Structure**
 ```
 ├── datasets/
 │   ├── merged_mustard_reservoir.csv
@@ -64,7 +64,7 @@ Visual analyses such as Actual vs Predicted and Residual plots are included to a
 
 ---
 
-# **Setup and Execution**
+## **Setup and Execution**
 
 **Step 1 – Clone the repository**
 ```
@@ -94,7 +94,7 @@ Execute cells sequentially to train, test, and evaluate model performance.
 
 ---
 
-# **System Requirements**
+## **System Requirements**
 
 - Python 3.10 or later
 - Minimum 8 GB RAM (recommended for deep learning models)
@@ -103,7 +103,7 @@ Execute cells sequentially to train, test, and evaluate model performance.
 
 ---
 
-# **Author**
+## **Author**
 
 Nakka Sai Spoorthi
 B.Tech – CSE (AI & ML), Institute of Aeronautical Engineering (IARE)
