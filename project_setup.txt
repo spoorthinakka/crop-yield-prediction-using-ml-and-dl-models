@@ -1,0 +1,90 @@
+# Setup Instructions
+
+This document provides detailed setup guidelines to reproduce and run the 
+"Crop Yield Prediction Using Machine Learning and Deep Learning Models" project.
+
+The project focuses on yield forecasting for the **mustard crop** using a 
+reservoir-based dataset and implements a combination of ML and DL models 
+including Random Forest Regressor (RFR), XGBoost, LSTM, and BiLSTM.
+
+------------------------------------------------------------
+1. Clone the Repository
+------------------------------------------------------------
+Clone the GitHub repository to your local machine and navigate into the project folder.
+
+    git clone https://github.com/spoorthinakka/crop-yield-prediction-using-ml-and-dl-models.git
+    cd crop-yield-prediction-using-ml-and-dl-models
+
+------------------------------------------------------------
+2. Create and Activate a Virtual Environment
+------------------------------------------------------------
+It is recommended to use a virtual environment to maintain clean dependency management.
+
+    # For Windows (PowerShell)
+    python -m venv venv
+    .\venv\Scripts\activate
+
+    # For macOS/Linux
+    python3 -m venv venv
+    source venv/bin/activate
+
+------------------------------------------------------------
+3. Install Required Dependencies
+------------------------------------------------------------
+Install all required libraries specified in the `requirements.txt` file.
+
+    pip install -r requirements.txt
+
+Ensure Python version **3.10 or later** is used for compatibility.
+
+------------------------------------------------------------
+4. Dataset Information
+------------------------------------------------------------
+The project utilizes two versions of the mustard reservoir dataset located in the `datasets/` directory:
+
+    • merged_mustard_reservoir.csv  
+      → Raw dataset containing unprocessed reservoir and climatic data.
+
+    • cleaned_mustard_reservoir_dataset.csv  
+      → Preprocessed dataset obtained after data cleaning, handling missing values, 
+         and preparing for model training and evaluation.
+
+------------------------------------------------------------
+5. Project Notebooks
+------------------------------------------------------------
+The repository includes multiple Jupyter Notebooks demonstrating different modeling stages:
+
+    • mustard_reservoir_yield_prediction.ipynb  
+      → Implements Machine Learning models such as Random Forest Regressor (RFR) and XGBoost.
+
+    • lstm_model.ipynb  
+      → Implements the Long Short-Term Memory (LSTM) model for time-series yield prediction.
+
+    • bilstm_model.ipynb  
+      → Implements the Bidirectional LSTM (BiLSTM) model for enhanced sequential learning.
+
+Each notebook can be executed independently to evaluate specific models.
+
+------------------------------------------------------------
+6. Running the Project
+------------------------------------------------------------
+1. Activate your virtual environment.  
+2. Launch Jupyter Notebook or open the `.ipynb` files directly in VS Code.  
+3. Execute the cells sequentially to reproduce results and visualize performance metrics 
+   (MAE, MSE, RMSE, R² Score).  
+4. Comparative analysis can be done between ML and DL models to evaluate accuracy improvements.
+
+------------------------------------------------------------
+7. System Requirements
+------------------------------------------------------------
+    • Python 3.10 or higher  
+    • Minimum 8 GB RAM recommended for LSTM/BiLSTM models  
+    • GPU (optional) for faster deep learning training  
+    • OS: Windows 10/11, macOS, or Linux  
+
+------------------------------------------------------------
+8. Author and Acknowledgment
+------------------------------------------------------------
+Developed by Nakka Sai Spoorthi
+B.Tech (CSE - AI & ML), IARE  
+As part of the TIH Internship Project on Agricultural Yield Prediction.
