@@ -76,7 +76,9 @@ cd crop-yield-prediction-using-ml-and-dl-models
 ```
 python -m venv venv
 .\venv\Scripts\activate     # For Windows
+
 # or
+
 source venv/bin/activate    # For macOS/Linux
 ```
 
@@ -105,6 +107,6 @@ Execute cells sequentially to train, test, and evaluate model performance.
 
 ## **Author**
 
-Nakka Sai Spoorthi
+Nakka Sai Spoorthi, 
 B.Tech – CSE (AI & ML), Institute of Aeronautical Engineering (IARE)
 Conducted under the Technology Innovation Hub (TIH), ISI Kolkata as part of an internship research project on crop yield prediction.
